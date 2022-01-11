@@ -30,7 +30,7 @@ printArr($numbers);
 
 echo largest($numbers) .'<br><br>';
 
-echo printArr(removeDups($numbers));
+printArr(removeDups($numbers));
 
 ?>
 </body>

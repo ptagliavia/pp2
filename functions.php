@@ -13,6 +13,6 @@ function largest($largestArr) {
     return $largestNum;
 }
 
-function removeDups($removeArr) {
-    return array_values(array_unique($removeArr));
+function removeDups($removeArray) {
+    return array_values(array_unique($removeArray));
 }

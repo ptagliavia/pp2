@@ -20,7 +20,18 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
-echo 'PHP Array practice';
+echo 'PHP Array Practice<br>';
+
+$numbers = array(7,9,8,9,8,8,6);
+
+function printArr($numArray) {
+    for ($x = 0; $x < sizeof($numArray); $x++) {
+        echo "The number is: $numArray[$x] <br>";
+    }
+}
+
+printArr($numbers);
+
 ?>
 </body>
 </html>

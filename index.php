@@ -28,6 +28,10 @@ include 'functions.php';
 
 printArr($numbers);
 
+echo largest($numbers) .'<br><br>';
+
+echo printArr(removeDups($numbers));
+
 ?>
 </body>
 </html>

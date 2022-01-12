@@ -28,9 +28,12 @@ include 'functions.php';
 
 printArr($numbers);
 
-echo largest($numbers) .'<br><br>';
+echo '<br>Largest is: ' .largest($numbers) .'<br><br>';
 
+echo 'Dup Removal: <br> ';
 printArr(removeDups($numbers));
+
+print_r(distribution($numbers));
 
 ?>
 </body>
